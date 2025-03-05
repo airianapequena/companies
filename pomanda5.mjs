@@ -21,10 +21,50 @@ const dbConfig = {
 // Create a connection pool
 const pool = new Pool(dbConfig);
 
+// Scraping configuration
+const SCRAPING_CONFIG = {
+  batchSize: 222,
+  baseDelay: 1000,
+  maxConsecutiveErrors: 5,
+  timeout: 30000,
+  rejectUnauthorized: false
+};
+
+// Search filters configuration
+const SEARCH_FILTERS = {
+  companyStatus: {
+    includeLive: true,
+    excludeDormant: true
+  },
+  
+  subsidiary: {
+    hasSubsidiary: "No" // Options: "Yes", "No", null (for both)
+  },
+  
+  location: {
+    registeredAddress: {
+      enabled: true,
+      type: "5_Region" // Options: "5_Region", "4_District", "3_Post", etc.
+    },
+    tradingAddress: {
+      enabled: true,
+      type: "5_Region"
+    }
+  },
+  
+  growth: {
+    tags: ["High", "Rapid"] // Empty array for no growth filter
+  },
+  
+  sorting: {
+    field: "companyName",
+    type: "asc" // Options: "asc", "desc"
+  }
+};
+
 // Configuration for scraping
-const BATCH_SIZE = 222;  // Number of records to fetch per request
-const BASE_DELAY = 1000;  // Base delay between requests in ms
-const MAX_CONSECUTIVE_ERRORS = 5;  // Max consecutive errors before aborting
+const BATCH_SIZE = SCRAPING_CONFIG.batchSize;  // Number of records to fetch per request
+const BASE_DELAY = SCRAPING_CONFIG.baseDelay;  // Base delay between requests in ms
 
 // Create logs directory
 const logsDir = path.join(__dirname, 'logs');
@@ -329,7 +369,115 @@ async function fetchCompanies(prefix, offset = 0) {
   
   while (retryCount < maxRetries) {
     try {
-      console.log(`Fetching companies with prefix '${prefix}', offset=${offset}, size=${BATCH_SIZE}`);
+      console.log(`Fetching companies with prefix '${prefix}', offset=${offset}, size=${SCRAPING_CONFIG.batchSize}`);
+      
+      // Build filters object based on configuration
+      const filters = {
+        // Company status filter
+        "company status": {
+          "name": "company status",
+          "type": "check",
+          "valueType": null,
+          "fields": {
+            "companyStatusList": {
+              "value": [
+                ...(SEARCH_FILTERS.companyStatus.includeLive ? [{
+                  "displayName": "live",
+                  "fieldNames": ["Dissolved"],
+                  "value": "L",
+                  "shareKey": "liv"
+                }] : []),
+                ...(SEARCH_FILTERS.companyStatus.excludeDormant ? [{
+                  "displayName": "Exclude Dormant Companies",
+                  "fieldNames": ["Dormant"],
+                  "value": "false",
+                  "shareKey": "edc"
+                }] : [])
+              ],
+              "type": "check",
+              "fieldNames": []
+            }
+          }
+        },
+        
+        // Subsidiary filter
+        ...(SEARCH_FILTERS.subsidiary.hasSubsidiary ? {
+          "Has a Subsidiary": {
+            "name": "Has a Subsidiary",
+            "type": "radio",
+            "valueType": null,
+            "fields": {
+              "hasSubsidiary": {
+                "value": SEARCH_FILTERS.subsidiary.hasSubsidiary,
+                "type": "radio",
+                "fieldNames": ["HasSubs"]
+              }
+            }
+          }
+        } : {}),
+        
+        // Location filters
+        ...(SEARCH_FILTERS.location.registeredAddress.enabled ? {
+          "Registered Address": {
+            "name": "Registered Address",
+            "type": "location",
+            "fields": {
+              "locationRegisteredAddress": {
+                "value": [SEARCH_FILTERS.location.registeredAddress.type],
+                "type": "register"
+              }
+            }
+          }
+        } : {}),
+        
+        ...(SEARCH_FILTERS.location.tradingAddress.enabled ? {
+          "Trading Address": {
+            "name": "Trading Address",
+            "type": "location",
+            "fields": {
+              "locationTradingAddress": {
+                "value": [SEARCH_FILTERS.location.tradingAddress.type],
+                "type": "trading"
+              }
+            }
+          }
+        } : {}),
+        
+        // Growth tags filter
+        ...(SEARCH_FILTERS.growth.tags.length > 0 ? {
+          "tags": {
+            "name": "tags",
+            "type": "tags",
+            "valueType": null,
+            "fields": {
+              "companyTagsGrowth": {
+                "value": SEARCH_FILTERS.growth.tags.map(tag => ({
+                  "displayName": tag,
+                  "fieldNames": ["GrowthTag"],
+                  "value": tag,
+                  "shareKey": tag.toLowerCase()
+                })),
+                "type": "tags",
+                "fieldNames": []
+              }
+            }
+          }
+        } : {}),
+        
+        // Company name filter (always included)
+        "Company Name": {
+          "name": "Company Name",
+          "type": "text",
+          "valueType": "linkedFilter",
+          "fields": {
+            "companyName": {
+              "value": prefix,
+              "type": "text",
+              "fieldNames": ["CompanyName"]
+            }
+          }
+        }
+      };
       
       // Rotate tracker ID and session ID for each request
       const { trackerId, sessionId } = getNextTrackerSession();
@@ -337,13 +485,30 @@ async function fetchCompanies(prefix, offset = 0) {
       session.sessionId = sessionId;
       
       const proxyUrl = formatProxyUrl();
+      console.log('Using proxy:', proxyUrl); // Debug proxy URL
+      
       const url = "https://restapi.pomanda.com/powerSearch/getCompanySearchData";
       
-      // Update session info
       session.searchPrefix = prefix;
       session.currentOffset = offset;
-      session.scrollPosition = offset * 50; // Approximate height per row
+      session.scrollPosition = offset * 50;
       session.batchStartTime = Date.now();
+      
+      const requestBody = {
+        "searchText": "",
+        "from": offset,
+        "size": SCRAPING_CONFIG.batchSize,
+        "sortField": SEARCH_FILTERS.sorting.field,
+        "sortType": SEARCH_FILTERS.sorting.type,
+        "filters": filters,
+        "captchaToken": null,
+        "paginationType": "onscroll",
+        "isEstimateOn": true,
+        "trackerId": session.trackerId,
+        "userId": 0
+      };
+      
+      console.log('Request body:', JSON.stringify(requestBody, null, 2)); // Debug request
       
       const response = await gotScraping({
         url,
@@ -368,95 +533,78 @@ async function fetchCompanies(prefix, offset = 0) {
           "Referrer-Policy": "strict-origin-when-cross-origin",
           "cookie": formatCookies()
         },
-        body: JSON.stringify({
-          "searchText": "",
-          "from": offset,
-          "size": BATCH_SIZE,
-          "sortField": "companyName",
-          "sortType": "asc",
-          "filters": {
-            "company status": {
-              "name": "company status",
-              "type": "check",
-              "valueType": null,
-              "fields": {
-                "companyStatusList": {
-                  "value": [
-                    {
-                      "displayName": "live",
-                      "fieldNames": ["Dissolved"],
-                      "value": "L",
-                      "shareKey": "liv"
-                    },
-                    {
-                      "displayName": "Exclude Dormant Companies",
-                      "fieldNames": ["Dormant"],
-                      "value": "false",
-                      "shareKey": "edc"
-                    }
-                  ],
-                  "type": "check",
-                  "fieldNames": []
-                }
-              }
-            },
-            "Company Name": {
-              "name": "Company Name",
-              "type": "text",
-              "valueType": "linkedFilter",
-              "fields": {
-                "companyName": {
-                  "value": prefix,
-                  "type": "text",
-                  "fieldNames": ["CompanyName"]
-                }
-              }
-            }
-          },
-          "captchaToken": null,
-          "paginationType": "onscroll",
-          "isEstimateOn": true,
-          "trackerId": session.trackerId,
-          "userId": 0
-        }),
+        body: JSON.stringify(requestBody),
         timeout: {
-          request: 30000, // Increased timeout
+          request: SCRAPING_CONFIG.timeout
         },
         https: {
-          rejectUnauthorized: false
+          rejectUnauthorized: SCRAPING_CONFIG.rejectUnauthorized
+        },
+        retry: {
+          limit: 0 // Disable got's built-in retry to use our own
         }
       });
       
-      // Extract and save cookies from response
+      // Extract cookies and save response
       extractCookies(response.headers);
       
-      // Generate unique filename with prefix and batch info
       const batchId = Date.now();
       const filename = `${prefix}_batch-${offset}-${batchId}.json`;
       
-      // Parse response body
-      const data = JSON.parse(response.body);
+      // Parse and validate response
+      let data;
+      try {
+        data = JSON.parse(response.body);
+        if (!data || !data.data) {
+          throw new Error('Invalid response structure');
+        }
+        console.log(`Received ${data.data.hits?.length || 0} companies for prefix '${prefix}'`);
+      } catch (parseError) {
+        console.error('Error parsing response:', parseError);
+        console.error('Response body:', response.body.substring(0, 500)); // Show first 500 chars
+        throw parseError;
+      }
       
       // Save response for debugging
       await saveRawResponse(data, filename);
       
-      // Update total records count if available
       if (data.data && data.data.total !== undefined) {
         session.totalRecords = data.data.total;
       }
       
       return data;
+      
     } catch (error) {
       retryCount++;
-      console.error(`Attempt ${retryCount}/${maxRetries} failed:`, error.message);
+      
+      // Log detailed error information
+      console.error(`Attempt ${retryCount}/${maxRetries} failed for prefix '${prefix}':`);
+      console.error('Error:', error.message);
+      
+      if (error.response) {
+        console.error('Status code:', error.response.statusCode);
+        console.error('Response headers:', error.response.headers);
+        console.error('Response body:', error.response.body?.substring(0, 500));
+        
+        // Save error response
+        await saveRawResponse({
+          error: error.message,
+          statusCode: error.response.statusCode,
+          headers: error.response.headers,
+          body: error.response.body
+        }, `error-${prefix}-${offset}-${Date.now()}.json`);
+      }
       
       if (retryCount === maxRetries) {
         throw new Error(`Failed to fetch companies after ${maxRetries} attempts: ${error.message}`);
       }
       
-      // Exponential backoff
-      const delay = Math.pow(2, retryCount) * BASE_DELAY;
-      console.log(`Retrying in ${delay}ms...`);
+      // Exponential backoff with jitter
+      const baseDelay = Math.pow(2, retryCount) * BASE_DELAY;
+      const jitter = Math.random() * 1000; // Add up to 1 second of random jitter
+      const delay = baseDelay + jitter;
+      
+      console.log(`Backing off for ${Math.round(delay)}ms before retry ${retryCount + 1}...`);
       await new Promise(resolve => setTimeout(resolve, delay));
     }
   }
@@ -515,7 +663,7 @@ async function processAlphabetPrefix(prefix) {
   
   try {
     // Continue fetching until we run out of data or hit too many errors
-    while (hasMoreData && consecutiveErrors < MAX_CONSECUTIVE_ERRORS) {
+    while (hasMoreData && consecutiveErrors < SCRAPING_CONFIG.maxConsecutiveErrors) {
       try {
         // Fetch the next batch
         const offset = session.currentOffset;
@@ -541,13 +689,13 @@ async function processAlphabetPrefix(prefix) {
             // Potential error, count as consecutive error
             consecutiveErrors++;
             
-            if (consecutiveErrors >= MAX_CONSECUTIVE_ERRORS) {
-              console.error(`Reached maximum consecutive errors (${MAX_CONSECUTIVE_ERRORS}). Stopping.`);
+            if (consecutiveErrors >= SCRAPING_CONFIG.maxConsecutiveErrors) {
+              console.error(`Reached maximum consecutive errors (${SCRAPING_CONFIG.maxConsecutiveErrors}). Stopping.`);
               hasMoreData = false;
             } else {
               // Try to recover by incrementing offset and trying again
               console.log(`Trying to recover by incrementing offset`);
-              session.currentOffset += BATCH_SIZE;
+              session.currentOffset += SCRAPING_CONFIG.batchSize;
               await saveCheckpoint();
             }
           }
@@ -918,21 +1066,26 @@ async function processCompanyData(companies) {
   }
 
   let successCount = 0;
+  console.log(`Processing ${companies.length} companies...`);
 
   for (const company of companies) {
     const client = await pool.connect();
-
+    
     try {
       console.log(`Processing company: ${company.companyName || company.name || 'Unknown'} (${successCount + 1}/${companies.length})`);
-
+      
       await client.query('BEGIN');
       const id = await insertCompanyData(client, company);
       await client.query('COMMIT');
-
-      if (id) successCount++;
+      
+      if (id) {
+        successCount++;
+        console.log(`Successfully inserted company with ID: ${id}`);
+      }
     } catch (error) {
       await client.query('ROLLBACK');
-      console.error(`Error processing company:`, error.message);
+      console.error('Error processing company:', error.message);
+      console.error('Problem company:', JSON.stringify(company, null, 2));
     } finally {
       client.release();
     }
