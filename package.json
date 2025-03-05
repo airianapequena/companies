@@ -1,0 +1,16 @@
+{
+  "name": "work_project",
+  "version": "1.0.0",
+  "main": "mysql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "got-scraping": "^4.1.1",
+    "mysql2": "^3.12.0",
+    "pg": "^8.13.3"
+  }
+}

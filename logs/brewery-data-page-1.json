@@ -1,0 +1,66 @@
+{
+  "data": {
+    "total": 49,
+    "searchData": [
+      {
+        "companyId": "05547238",
+        "companyName": "YORKSHIRE DALES BREWING COMPANY LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "1105",
+        "industryName": "Manufacture of beer",
+        "address": "80 DALE GROVE, LEYBURN, NORTH YORKSHIRE, DL8 5GA.",
+        "location": "DL8 5GA",
+        "incorporatedDate": "26/08/2005",
+        "netAssets": {
+          "value": 20661,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -7872,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 248952,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "North Yorkshire",
+            "TradAddress": "80 Dale Grove, Leyburn, North Yorkshire, DL8 5GA.",
+            "TradPostShort": "DL8",
+            "TradRegionID": "6",
+            "TradRegion": "North East England",
+            "TradPost": "DL8 5GA",
+            "TradDistrictID": "2968",
+            "TradLatitude": 54.2947,
+            "TradDistrict": "Wensleydale, Bedale",
+            "TradAreaID": "284",
+            "TradLongitude": -1.78553,
+            "TradLocation": "North Yorkshire"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Manufacture of beer",
+            "SICGroup": "110",
+            "SIC2007Weight": 100,
+            "SIC2007": "11050"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.09,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "Craft Brewer is a small-batch, independent brewery located in Askrigg, North Yorkshire, specializing in the production of high-quality, artisanal beers. Established in 2005, the brewery has cultivated a reputation for innovation and creativity, consistently pushing the boundaries of traditional brewing techniques.  Craft Brewer offers a diverse range of beers, distributed nationwide through various channels, including cask, keg, and bottled/canned formats.  The brewery operates a bottle shop and brewery tap, providing a direct-to-consumer experience for beer enthusiasts to sample and purchase their products.  Craft Brewer's commitment to fiercely independent brewing aligns with the growing trend of craft beer culture, emphasizing quality, local sourcing, and unique flavor profiles. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      }
+    ],
+    "runCaptcha": false
+  }
+}

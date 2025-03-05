@@ -1,0 +1,3422 @@
+{
+  "data": {
+    "total": 53,
+    "searchData": [
+      {
+        "companyId": "12058484",
+        "companyName": "AA & NESSA LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4930",
+        "industryName": "Other passenger land transport",
+        "address": "FLAT 4 MCINTOSH HOUSE, APPLE YARD PENGE, LONDON, SE20 8FQ.",
+        "location": "SE20 8FQ",
+        "incorporatedDate": "19/06/2019",
+        "netAssets": {
+          "value": -253,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 3869,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 36415,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Bromley",
+            "TradAddress": "Flat 4 McIntosh House, Apple Yard Penge, London, SE20 8FQ, SE20 8FQ.",
+            "TradPostShort": "SE20",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "SE20 8FQ",
+            "TradDistrictID": "131",
+            "TradLatitude": 51.413,
+            "TradDistrict": "Anerley, Crystal Palace, Penge, Beckenham",
+            "TradAreaID": "57",
+            "TradLongitude": -0.0581164,
+            "TradLocation": "SE20 8FQ"
+          },
+          {
+            "TradArea": "Lewisham",
+            "TradAddress": "Flat 12, Cheviot Court, Avonley Road, London, SE14 5EX.",
+            "TradPostShort": "SE14",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "SE14 5EX",
+            "TradDistrictID": "2093",
+            "TradLatitude": 51.4755,
+            "TradDistrict": "New Cross, New Cross Gate",
+            "TradAreaID": "225",
+            "TradLongitude": -0.0431094,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Taxi operation",
+            "SICGroup": "493",
+            "SIC2007Weight": 100,
+            "SIC2007": "49320"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.06,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "12518194",
+        "companyName": "AA & SS TRANSPORT LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4940",
+        "industryName": "Freight transport by road and removal services",
+        "address": "8 THE AVENUE, ROMFORD, RM1 4LD.",
+        "location": "RM1 4LD",
+        "incorporatedDate": "16/03/2020",
+        "netAssets": {
+          "value": 550,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -5230,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 406878,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Havering",
+            "TradAddress": "8 The Avenue, ROMFORD, RM1 4LD.",
+            "TradPostShort": "RM1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "RM1 4LD",
+            "TradDistrictID": "2499",
+            "TradLatitude": 51.5802,
+            "TradDistrict": "Romford",
+            "TradAreaID": "185",
+            "TradLongitude": 0.18206,
+            "TradLocation": "ROMFORD"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Freight transport by road",
+            "SICGroup": "494",
+            "SIC2007Weight": 100,
+            "SIC2007": "49410"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.31,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "03823061",
+        "companyName": "AA ACCESS PARTNERSHIP LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6120",
+        "industryName": "Wireless telecommunications activities",
+        "address": "4TH FLOOR, THE TOWER, 65 BUCKINGHAM GATE, LONDON, SW1E 6AS.",
+        "location": "SW1E 6AS",
+        "incorporatedDate": "10/08/1999",
+        "netAssets": {
+          "value": 6448084,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 5393014,
+          "type": "COMPANYHOUSE"
+        },
+        "turnover": {
+          "value": 17392806,
+          "type": "COMPANYHOUSE"
+        },
+        "trad": [
+          {
+            "TradArea": "Westminster",
+            "TradAddress": "65 Buckingham Gate, LONDON, SW1E 6AS.",
+            "TradPostShort": "SW1E",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "SW1E 6AS",
+            "TradDistrictID": "672",
+            "TradLatitude": 51.4968,
+            "TradDistrict": "Buckingham Gate, Victoria Station",
+            "TradAreaID": "435",
+            "TradLongitude": -0.140159,
+            "TradLocation": "LONDON"
+          },
+          {
+            "TradArea": "Westminster",
+            "TradAddress": "9th Floor, Southside, 105 Victoria Street, London, SW1E 6QT.",
+            "TradPostShort": "SW1E",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "SW1E 6QT",
+            "TradDistrictID": "672",
+            "TradLatitude": 51.4968,
+            "TradDistrict": "Buckingham Gate, Victoria Station",
+            "TradAreaID": "435",
+            "TradLongitude": -0.140159,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Wireless telecommunications activities",
+            "SICGroup": "612",
+            "SIC2007Weight": 100,
+            "SIC2007": "61200"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.08,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "Telecommunications consultancy.",
+          "type": "ESTIMATE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "05277090",
+        "companyName": "AA ACCOUNTANCY AND INFO MANAGEMENT SERVICES LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6920",
+        "industryName": "Accounting, bookkeeping and auditing activities; tax consultancy",
+        "address": "KINGSWAY HOUSE, 20 KINGSWAY CRESCENT, HARROW, HA2 6BG.",
+        "location": "HA2 6BG",
+        "incorporatedDate": "03/11/2004",
+        "netAssets": {
+          "value": 26310,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 3456,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 82415,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Harrow",
+            "TradAddress": "Kingsway House, 20 Kingsway Crescent, Harrow, Middlesex, HA2 6BG.",
+            "TradPostShort": "HA2",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "HA2 6BG",
+            "TradDistrictID": "2265",
+            "TradLatitude": 51.5757,
+            "TradDistrict": "North Harrow, South Harrow",
+            "TradAreaID": "181",
+            "TradLongitude": -0.354972,
+            "TradLocation": "Middlesex"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Accounting, and auditing activities",
+            "SICGroup": "692",
+            "SIC2007Weight": 100,
+            "SIC2007": "69201"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.15,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "10496019",
+        "companyName": "AA ADDISON LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9609",
+        "industryName": "Other personal service activities n.e.c.",
+        "address": "OFFICE 1 - TANWEER, 58 ILFORD LANE, ILFORD, IG1 2JY.",
+        "location": "IG1 2JY",
+        "incorporatedDate": "24/11/2016",
+        "netAssets": {
+          "value": -30409,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -28347,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 74073,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Redbridge",
+            "TradAddress": "Office 1 - Tanweer, 58 Ilford Lane, Ilford, IG1 2JY, IG1 2JY.",
+            "TradPostShort": "IG1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "IG1 2JY",
+            "TradDistrictID": "1632",
+            "TradLatitude": 51.5592,
+            "TradDistrict": "Ilford",
+            "TradAreaID": "307",
+            "TradLongitude": 0.072743,
+            "TradLocation": "IG1 2JY"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other personal service activities n.e.c.",
+            "SICGroup": "960",
+            "SIC2007Weight": 100,
+            "SIC2007": "96090"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.01,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "The company was dormant during y/e 30.11.17.",
+          "type": "ESTIMATE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "07976484",
+        "companyName": "AA ARCHITECTURAL RECLAIM LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9520",
+        "industryName": "Repair of personal and household goods",
+        "address": "163 HERNE HILL, LONDON, SE24 9LR.",
+        "location": "SE24 9LR",
+        "incorporatedDate": "05/03/2012",
+        "netAssets": {
+          "value": 35557,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -9681,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 95136,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Lambeth",
+            "TradAddress": "163 Herne Hill, London, SE24 9LR.",
+            "TradPostShort": "SE24",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "SE24 9LR",
+            "TradDistrictID": "1538",
+            "TradLatitude": 51.4569,
+            "TradDistrict": "Herne Hill, Tulse Hill",
+            "TradAreaID": "217",
+            "TradLongitude": -0.100273,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Repair of furniture and home furnishings",
+            "SICGroup": "952",
+            "SIC2007Weight": 100,
+            "SIC2007": "95240"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.72,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "07122707",
+        "companyName": "AA ASSET MANAGEMENT LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "8290",
+        "industryName": "Business support service activities n.e.c.",
+        "address": "21 AYLMER PARADE, AYLMER ROAD, LONDON, N2 0AT.",
+        "location": "N2 0AT",
+        "incorporatedDate": "12/01/2010",
+        "netAssets": {
+          "value": 47260,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 18319,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 588004,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Barnet",
+            "TradAddress": "21 Aylmer Parade, Aylmer Road, London, N2 0AT.",
+            "TradPostShort": "N2",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "N2 0AT",
+            "TradDistrictID": "1179",
+            "TradLatitude": 51.5903,
+            "TradDistrict": "East Finchley, Fortis Green, Hampstead Garden Suburb",
+            "TradAreaID": "24",
+            "TradLongitude": -0.168655,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other business support service activities n.e.c.",
+            "SICGroup": "829",
+            "SIC2007Weight": 100,
+            "SIC2007": "82990"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.26,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "10684343",
+        "companyName": "AA AUTO SERVICE LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4520",
+        "industryName": "Maintenance and repair of motor vehicles",
+        "address": "63 BARKING ROAD, LONDON, E16 4HB.",
+        "location": "E16 4HB",
+        "incorporatedDate": "22/03/2017",
+        "netAssets": {
+          "value": 6815,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 3594,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 280342,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Newham",
+            "TradAddress": "63 Barking Road, LONDON, E16 4HB.",
+            "TradPostShort": "E16",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E16 4HB",
+            "TradDistrictID": "2616",
+            "TradLatitude": 51.5115,
+            "TradDistrict": "Silvertown, North Woolwich, Canning Town, Custom House, London City Airport",
+            "TradAreaID": "264",
+            "TradLongitude": 0.0205887,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Maintenance and repair of motor vehicles",
+            "SICGroup": "452",
+            "SIC2007Weight": 100,
+            "SIC2007": "45200"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.24,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "The company was dormant during y/e 31.03.18.",
+          "type": "ESTIMATE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11644257",
+        "companyName": "AA AUTOMOTIVE SEAT COVERS LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "1330",
+        "industryName": "Finishing of textiles",
+        "address": "S13, UNIT-3 TRIANGLE CENTRE, - 399, UXBRIDGE ROAD,, SOUTHALL, UB1 3EJ.",
+        "location": "UB1 3EJ",
+        "incorporatedDate": "26/10/2018",
+        "netAssets": {
+          "value": 3013,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 6252,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 75038,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Ealing",
+            "TradAddress": "Unit 3, Triangle Centre, Uxbridge Road, Southall, Middlesex, UB1 3EJ.",
+            "TradPostShort": "UB1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "UB1 3EJ",
+            "TradDistrictID": "2652",
+            "TradLatitude": 51.5123,
+            "TradDistrict": "Southall",
+            "TradAreaID": "127",
+            "TradLongitude": -0.376436,
+            "TradLocation": "Southall, Middlesex"
+          },
+          {
+            "TradArea": "Ealing",
+            "TradAddress": "S13, Unit-3 Triangle Centre, - 399, Uxbridge Road,, Southall, UB1 3EJ, UB1 3EJ.",
+            "TradPostShort": "UB1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "UB1 3EJ",
+            "TradDistrictID": "2652",
+            "TradLatitude": 51.5123,
+            "TradDistrict": "Southall",
+            "TradAreaID": "127",
+            "TradLongitude": -0.376436,
+            "TradLocation": "UB1 3EJ"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Finishing of textiles",
+            "SICGroup": "133",
+            "SIC2007Weight": 50,
+            "SIC2007": "13300"
+          },
+          {
+            "SICDesc": "Other personal service activities n.e.c.",
+            "SICGroup": "960",
+            "SIC2007Weight": 50,
+            "SIC2007": "96090"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.16,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11494163",
+        "companyName": "AA BEAUTY LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9602",
+        "industryName": "Hairdressing and other beauty treatment",
+        "address": "19 CLOCKHOUSE LANE, ASHFORD, SURREY, TW15 2EP.",
+        "location": "TW15 2EP",
+        "incorporatedDate": "01/08/2018",
+        "netAssets": {
+          "value": 2,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 2098,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 26803,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Spelthorne",
+            "TradAddress": "19 Clockhouse Lane, ASHFORD, TW15 2EP.",
+            "TradPostShort": "TW15",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "TW15 2EP",
+            "TradDistrictID": "187",
+            "TradLatitude": 51.4304,
+            "TradDistrict": "Ashford",
+            "TradAreaID": "367",
+            "TradLongitude": -0.455862,
+            "TradLocation": "ASHFORD"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Hairdressing and other beauty treatment",
+            "SICGroup": "960",
+            "SIC2007Weight": 100,
+            "SIC2007": "96020"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.01,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "AA BEAUTY Ltd is a small cosmetics company based in London, England, generating between $0M and $1M in revenue.  The company likely operates as a direct-to-consumer (D2C) brand, focusing on selling beauty products through online channels and potentially a limited number of retail partnerships.  Their product portfolio could include a range of cosmetics, skincare, or hair care items, targeting a specific niche within the beauty market.  The company's small size suggests a focus on high-quality, artisanal, or niche products, potentially leveraging social media marketing and influencer collaborations to reach their target audience. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "09917566",
+        "companyName": "AA BOILER SERVICES LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "3310",
+        "industryName": "Repair of fabricated metal products, machinery and equipment",
+        "address": "85 MARKHOUSE ROAD, WALTHAMSTOW, LONDON, E17 8DH.",
+        "location": "E17 8DH",
+        "incorporatedDate": "15/12/2015",
+        "netAssets": {
+          "value": -17397,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -3180,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 47781,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Waltham Forest",
+            "TradAddress": "85 Markhouse Road, Walthamstow, London, E17 8DH.",
+            "TradPostShort": "E17",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E17 8DH",
+            "TradDistrictID": "2919",
+            "TradLatitude": 51.5864,
+            "TradDistrict": "Walthamstow, Upper Walthamstow",
+            "TradAreaID": "414",
+            "TradLongitude": -0.02022,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Repair of other equipment",
+            "SICGroup": "331",
+            "SIC2007Weight": 100,
+            "SIC2007": "33190"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.15,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "Boiler Guide operates as a digital marketplace and lead generation platform within the home heating and HVAC industry. The company leverages SEO optimization, digital marketing, and UX design to attract a large volume of homeowners seeking information and services related to heating system replacement, repair, and maintenance. Boiler Guide provides comprehensive online resources, including informational content, product comparisons, and installation guides covering a wide range of heating technologies such as gas boilers, heat pumps, solar panels, radiators, biomass systems, and electric boilers. The platform connects homeowners with accredited heating engineers through a bespoke dashboard, facilitating free quote requests and lead generation for participating engineers. Boiler Guide's business model relies on generating revenue through advertising, affiliate marketing, and service fees. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "05369554",
+        "companyName": "AA BROS LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6820",
+        "industryName": "Renting and operating of own or leased real estate",
+        "address": "246 WOODHOUSE ROAD, LONDON, N12 0RU.",
+        "location": "N12 0RU",
+        "incorporatedDate": "18/02/2005",
+        "netAssets": {
+          "value": 734488,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 24183,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 1360828,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Hertsmere",
+            "TradAddress": "47 The Rise, Borehamwood, Hertfordshire, WD6 3JS.",
+            "TradPostShort": "WD6",
+            "TradRegionID": "4",
+            "TradRegion": "East of England",
+            "TradPost": "WD6 3JS",
+            "TradDistrictID": "543",
+            "TradLatitude": 51.6567,
+            "TradDistrict": "Borehamwood, Elstree, Well End",
+            "TradAreaID": "189",
+            "TradLongitude": -0.27647,
+            "TradLocation": "Hertfordshire"
+          },
+          {
+            "TradArea": "Barnet",
+            "TradAddress": "246 Woodhouse Road, LONDON, N12 0RU.",
+            "TradPostShort": "N12",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "N12 0RU",
+            "TradDistrictID": "2264",
+            "TradLatitude": 51.6153,
+            "TradDistrict": "North Finchley, Woodside Park",
+            "TradAreaID": "24",
+            "TradLongitude": -0.178426,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Letting and operating of own or leased real estate (other than Housing Association real estate and conference and exhibition services) n.e.c.",
+            "SICGroup": "682",
+            "SIC2007Weight": 100,
+            "SIC2007": "68209"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.18,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "Property rental and dental equipment and materials agent.",
+          "type": "ESTIMATE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "02677303",
+        "companyName": "AA BUILDERS LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "7490",
+        "industryName": "Other professional, scientific and technical activities n.e.c.",
+        "address": "147 STATION ROAD, NORTH CHINGFORD, LONDON, E4 6AB, E7 0ET.",
+        "location": "E7 0ET",
+        "incorporatedDate": "14/01/1992",
+        "netAssets": {
+          "value": 22290,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 6611,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 204732,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Waltham Forest",
+            "TradAddress": "147 Station Road, North Chingford, London, E4 6AB.",
+            "TradPostShort": "E4",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E4 6AB",
+            "TradDistrictID": "875",
+            "TradLatitude": 51.6238,
+            "TradDistrict": "Chingford, Sewardstone, Highams Park",
+            "TradAreaID": "414",
+            "TradLongitude": -0.00325292,
+            "TradLocation": "London"
+          },
+          {
+            "TradArea": "Newham",
+            "TradAddress": "64 Station Road, North Chingford, London, E7 0ET.",
+            "TradPostShort": "E7",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E7 0ET",
+            "TradDistrictID": "1306",
+            "TradLatitude": 51.5476,
+            "TradDistrict": "Forest Gate, Stratford",
+            "TradAreaID": "264",
+            "TradLongitude": 0.026157,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Quantity surveying activities",
+            "SICGroup": "749",
+            "SIC2007Weight": 100,
+            "SIC2007": "74902"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.34,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "General builders and draughting.",
+          "type": "ESTIMATE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "08327527",
+        "companyName": "AA CHAUFFEURS LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9609",
+        "industryName": "Other personal service activities n.e.c.",
+        "address": "3RD FLOOR LAWFORD HOUSE, ALBERT PLACE, LONDON, N3 1QA.",
+        "location": "N3 1QA",
+        "incorporatedDate": "11/12/2012",
+        "netAssets": {
+          "value": 83040,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 14985,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 482041,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Barnet",
+            "TradAddress": "3rd Floor Lawford House, Albert Place, London, N3 1QA.",
+            "TradPostShort": "N3",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "N3 1QA",
+            "TradDistrictID": "1285",
+            "TradLatitude": 51.6004,
+            "TradDistrict": "Finchley, Church End, Finchley Central",
+            "TradAreaID": "24",
+            "TradLongitude": -0.194108,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other personal service activities n.e.c.",
+            "SICGroup": "960",
+            "SIC2007Weight": 100,
+            "SIC2007": "96090"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.07,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "AA Chauffeurs Ltd is a London-based executive chauffeur service specializing in providing personalized and attentive transportation solutions to corporate clients. With a history dating back to 1983, the company boasts extensive experience catering to the evolving needs of modern businesses.  Their services encompass a range of transportation requirements, including airport transfers, corporate events, and executive travel.  Leveraging their deep industry knowledge, AA Chauffeurs Ltd ensures a seamless and professional experience, prioritizing client satisfaction and exceeding expectations in the competitive luxury transportation market. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "10951719",
+        "companyName": "AA CONSTRUCTION SOLUTION LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4120",
+        "industryName": "Construction of residential and non-residential buildings",
+        "address": "126A SUNNY GARDENS ROAD, LONDON, NW4 1SE.",
+        "location": "NW4 1SE",
+        "incorporatedDate": "07/09/2017",
+        "netAssets": {
+          "value": 1550,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -2540,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 58155,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Barnet",
+            "TradAddress": "126A Sunny Gardens Road, London, NW4 1SE.",
+            "TradPostShort": "NW4",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "NW4 1SE",
+            "TradDistrictID": "597",
+            "TradLatitude": 51.5874,
+            "TradDistrict": "Brent Cross, Hendon",
+            "TradAreaID": "24",
+            "TradLongitude": -0.223793,
+            "TradLocation": "London"
+          },
+          {
+            "TradArea": "Enfield",
+            "TradAddress": "49 Stanford Road, London, N11 3HY.",
+            "TradPostShort": "N11",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "N11 3HY",
+            "TradDistrictID": "2099",
+            "TradLatitude": 51.6141,
+            "TradDistrict": "New Southgate, Friern Barnet, Bounds Green, Arnos Grove",
+            "TradAreaID": "148",
+            "TradLongitude": -0.138331,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Construction of commercial buildings",
+            "SICGroup": "412",
+            "SIC2007Weight": 50,
+            "SIC2007": "41201"
+          },
+          {
+            "SICDesc": "Construction of domestic buildings",
+            "SICGroup": "412",
+            "SIC2007Weight": 50,
+            "SIC2007": "41202"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.15,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "Residential property.",
+          "type": "ESTIMATE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "12202572",
+        "companyName": "AA DCE LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4770",
+        "industryName": "Retail sale of other goods in specialised stores",
+        "address": "BLOCK 11 DEVONSHIRE SQUARE, LONDON, EC2M 7YR.",
+        "location": "EC2M 7YR",
+        "incorporatedDate": "12/09/2019",
+        "netAssets": {
+          "value": 2838,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 605,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 130480,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "City of London",
+            "TradAddress": "Block 11 Devonshire Square, London, EC2M 7YR, EC2M 7YR.",
+            "TradPostShort": "EC2M",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "EC2M 7YR",
+            "TradDistrictID": "636",
+            "TradLatitude": 51.5184,
+            "TradDistrict": "Broadgate, Liverpool Street",
+            "TradAreaID": "93",
+            "TradLongitude": -0.0868273,
+            "TradLocation": "EC2M 7YR"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Washing and (dry-)cleaning of textile and fur products",
+            "SICGroup": "960",
+            "SIC2007Weight": 50,
+            "SIC2007": "96010"
+          },
+          {
+            "SICDesc": "Retail sale of clothing in specialised stores",
+            "SICGroup": "477",
+            "SIC2007Weight": 50,
+            "SIC2007": "47710"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.06,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "09410027",
+        "companyName": "AA DEVELOPERS LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6810",
+        "industryName": "Buying and selling of own real estate",
+        "address": "26 LOTHIAN AVENUE, HAYES, UB4 0EG.",
+        "location": "UB4 0EG",
+        "incorporatedDate": "28/01/2015",
+        "netAssets": {
+          "value": 44036,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 14094,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 62184,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Hounslow",
+            "TradAddress": "55 Cambridge Road, Hounslow, Middlesex, TW4 7BT.",
+            "TradPostShort": "TW4",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "TW4 7BT",
+            "TradDistrictID": "1603",
+            "TradLatitude": 51.4669,
+            "TradDistrict": "Hounslow West, Hounslow Heath, Whitton",
+            "TradAreaID": "196",
+            "TradLongitude": -0.384366,
+            "TradLocation": "Middlesex"
+          },
+          {
+            "TradArea": "Hillingdon",
+            "TradAddress": "26 Lothian Avenue, HAYES, UB4 0EG.",
+            "TradPostShort": "UB4",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "UB4 0EG",
+            "TradDistrictID": "3104",
+            "TradLatitude": 51.5231,
+            "TradDistrict": "Yeading, Hayes",
+            "TradAreaID": "193",
+            "TradLongitude": -0.408569,
+            "TradLocation": "HAYES"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Letting and operating of own or leased real estate (other than Housing Association real estate and conference and exhibition services) n.e.c.",
+            "SICGroup": "682",
+            "SIC2007Weight": 50,
+            "SIC2007": "68209"
+          },
+          {
+            "SICDesc": "Buying and selling of own real estate",
+            "SICGroup": "681",
+            "SIC2007Weight": 50,
+            "SIC2007": "68100"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.05,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "06864039",
+        "companyName": "AA EURO RECRUITMENT UK LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9609",
+        "industryName": "Other personal service activities n.e.c.",
+        "address": "501, BOUNDARY HOUSE BUSINESS CENTRE, LONDON, W7 2QE.",
+        "location": "W7 2QE",
+        "incorporatedDate": "31/03/2009",
+        "netAssets": {
+          "value": 73508,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -5690,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 17288249,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Liverpool",
+            "TradAddress": "Merchants Court, 2-12 Lord Street, Liverpool, Merseyside, L2 1TS.",
+            "TradPostShort": "L2",
+            "TradRegionID": "7",
+            "TradRegion": "North West England",
+            "TradPost": "L2 1TS",
+            "TradDistrictID": "1881",
+            "TradLatitude": 53.4068,
+            "TradDistrict": "Liverpool city centre",
+            "TradAreaID": "230",
+            "TradLongitude": -2.99014,
+            "TradLocation": "Merseyside"
+          },
+          {
+            "TradArea": "Ealing",
+            "TradAddress": "501, Boundary House Business Centre, London, W7 2QE, W7 2QE.",
+            "TradPostShort": "W7",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "W7 2QE",
+            "TradDistrictID": "1468",
+            "TradLatitude": 51.5098,
+            "TradDistrict": "Hanwell, Boston Manor",
+            "TradAreaID": "127",
+            "TradLongitude": -0.335127,
+            "TradLocation": "W7 2QE"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other personal service activities n.e.c.",
+            "SICGroup": "960",
+            "SIC2007Weight": 100,
+            "SIC2007": "96090"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.07,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "AA Euro Group is a global recruitment consultancy specializing in placing candidates in various sectors across multiple geographic locations. They offer a range of recruitment services, including executive search, permanent placement, temporary staffing, and recruitment process outsourcing (RPO), catering to both local and international clients. Their expertise lies in identifying and attracting top talent, leveraging their extensive network and deep industry knowledge to match candidates with suitable opportunities across diverse industries. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11596445",
+        "companyName": "AA EXCEL CONSULTING LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "7110",
+        "industryName": "Architectural and engineering activities and related technical consultancy",
+        "address": "22 NEWHAVEN GARDENS, LONDON, SE9 6HR.",
+        "location": "SE9 6HR",
+        "incorporatedDate": "01/10/2018",
+        "netAssets": {
+          "value": 10346,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -135,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 91981,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Greenwich",
+            "TradAddress": "22 Newhaven Gardens, LONDON, SE9 6HR.",
+            "TradPostShort": "SE9",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "SE9 6HR",
+            "TradDistrictID": "1227",
+            "TradLatitude": 51.4461,
+            "TradDistrict": "Eltham, Mottingham, New Eltham, Falconwood, Chinbrook, Longlands, Kidbrooke",
+            "TradAreaID": "168",
+            "TradLongitude": 0.0546081,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other engineering activities (not including engineering design for industrial process and production or engineering related scientific and technical consulting activities)",
+            "SICGroup": "711",
+            "SIC2007Weight": 100,
+            "SIC2007": "71129"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11981364",
+        "companyName": "AA GAS & HEATING LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4320",
+        "industryName": "Electrical, plumbing and other construction installation activities",
+        "address": "11 CRANWICH AVENUE, LONDON, N21 2BB.",
+        "location": "N21 2BB",
+        "incorporatedDate": "07/05/2019",
+        "netAssets": {
+          "value": 1218,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 325,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 99972,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Enfield",
+            "TradAddress": "13 Oak Avenue, Enfield, Middlesex, EN2 8LB.",
+            "TradPostShort": "EN2",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "EN2 8LB",
+            "TradDistrictID": "549",
+            "TradLatitude": 51.6585,
+            "TradDistrict": "Botany Bay, Clay Hill, Crews Hill, Bulls Cross, Enfield Chase, Enfield Town, Forty Hill",
+            "TradAreaID": "148",
+            "TradLongitude": -0.0917131,
+            "TradLocation": "Middlesex"
+          },
+          {
+            "TradArea": "Enfield",
+            "TradAddress": "11 Cranwich Avenue, LONDON, N21 2BB.",
+            "TradPostShort": "N21",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "N21 2BB",
+            "TradDistrictID": "3034",
+            "TradLatitude": 51.6356,
+            "TradDistrict": "Winchmore Hill, Bush Hill, Grange Park",
+            "TradAreaID": "148",
+            "TradLongitude": -0.0996207,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Plumbing, heat and air-conditioning installation",
+            "SICGroup": "432",
+            "SIC2007Weight": 100,
+            "SIC2007": "43220"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.07,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11307383",
+        "companyName": "AA GLOBAL IMPEX LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "7710",
+        "industryName": "Renting and leasing of motor vehicles",
+        "address": "477 HIGH STREET, HAYES, UB3 5DL.",
+        "location": "UB3 5DL",
+        "incorporatedDate": "12/04/2018",
+        "netAssets": {
+          "value": -67406,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -4423,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 206411,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Hillingdon",
+            "TradAddress": "477 High Street, Harlington, HAYES, UB3 5DL.",
+            "TradPostShort": "UB3",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "UB3 5DL",
+            "TradDistrictID": "1511",
+            "TradLatitude": 51.505,
+            "TradDistrict": "Hayes, Harlington",
+            "TradAreaID": "193",
+            "TradLongitude": -0.421793,
+            "TradLocation": "HAYES"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Renting and leasing of cars and light motor vehicles",
+            "SICGroup": "771",
+            "SIC2007Weight": 100,
+            "SIC2007": "77110"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.04,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "12328104",
+        "companyName": "AA GLOBAL LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4530",
+        "industryName": "Sale of motor vehicle parts and accessories",
+        "address": "FLAT 2 OSTLERS COURT, OLD MEADOW LANE, HOUNSLOW, TW3 1BA.",
+        "location": "TW3 1BA",
+        "incorporatedDate": "22/11/2019",
+        "netAssets": {
+          "value": 97334,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 1380,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 445077,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Hounslow",
+            "TradAddress": "Flat 2 Ostlers Court, Old Meadow Lane, Hounslow, TW3 1BA.",
+            "TradPostShort": "TW3",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "TW3 1BA",
+            "TradDistrictID": "1604",
+            "TradLatitude": 51.4686,
+            "TradDistrict": "Hounslow, Maswell Park, Lampton",
+            "TradAreaID": "196",
+            "TradLongitude": -0.363377,
+            "TradLocation": "Hounslow"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Retail trade of motor vehicle parts and accessories",
+            "SICGroup": "453",
+            "SIC2007Weight": 34,
+            "SIC2007": "45320"
+          },
+          {
+            "SICDesc": "Wholesale trade of motor vehicle parts and accessories",
+            "SICGroup": "453",
+            "SIC2007Weight": 33,
+            "SIC2007": "45310"
+          },
+          {
+            "SICDesc": "Other business support service activities n.e.c.",
+            "SICGroup": "829",
+            "SIC2007Weight": 33,
+            "SIC2007": "82990"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.18,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "AA Global Ltd operates as a business consulting firm specializing in strategic planning, business process optimization, and technology integration for small and medium-sized businesses (SMBs). They offer a comprehensive suite of services, including business strategy development, enterprise solutions, technology decision support, and financial forecasting. Their expertise spans various industry sectors, enabling them to provide tailored solutions. Additionally, AA Global Ltd offers translation and interpreting services, including face-to-face, phone, and simultaneous conference interpreting, catering to both private individuals and large international companies. Their services also extend to cultural awareness sessions and refugee projects, demonstrating their commitment to community engagement and social impact. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "09843578",
+        "companyName": "AA GRACE SERVICES LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9609",
+        "industryName": "Other personal service activities n.e.c.",
+        "address": "8 CENTENARY HOUSE B, LENA KENNEDY, HIGHAM PARK, E4 9GB.",
+        "location": "E4 9GB",
+        "incorporatedDate": "27/10/2015",
+        "netAssets": {
+          "value": 4984,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 4924,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 46117,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Waltham Forest",
+            "TradAddress": "8 Centenary House B, Lena Kennedy, Higham Park, E4 9GB, E4 9GB.",
+            "TradPostShort": "E4",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E4 9GB",
+            "TradDistrictID": "875",
+            "TradLatitude": 51.6238,
+            "TradDistrict": "Chingford, Sewardstone, Highams Park",
+            "TradAreaID": "414",
+            "TradLongitude": -0.00325292,
+            "TradLocation": "E4 9GB"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other personal service activities n.e.c.",
+            "SICGroup": "960",
+            "SIC2007Weight": 100,
+            "SIC2007": "96090"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.07,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "09173100",
+        "companyName": "AA GRAPHICS LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "2220",
+        "industryName": "Manufacture of plastics products",
+        "address": "UNIT 6A TRIPES FARM, CHELSFIELD LANE, ORPINGTON, KENT, BR6 7RS.",
+        "location": "BR6 7RS",
+        "incorporatedDate": "13/08/2014",
+        "netAssets": {
+          "value": 18997,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -13601,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 161436,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Medway",
+            "TradAddress": "31 Rochester Road, Burham, Rochester, Kent, ME1 3SP.",
+            "TradPostShort": "ME1",
+            "TradRegionID": "10",
+            "TradRegion": "South East England",
+            "TradPost": "ME1 3SP",
+            "TradDistrictID": "2496",
+            "TradLatitude": 51.3756,
+            "TradDistrict": "Rochester, Burham, Wouldham",
+            "TradAreaID": "241",
+            "TradLongitude": 0.499944,
+            "TradLocation": "Kent"
+          },
+          {
+            "TradArea": "Bromley",
+            "TradAddress": "Unit 6A Tripes Farm, Chelsfield Lane, Orpington, Kent BR6 7RS, BR6 7RS.",
+            "TradPostShort": "BR6",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "BR6 7RS",
+            "TradDistrictID": "2321",
+            "TradLatitude": 51.3674,
+            "TradDistrict": "Orpington, Farnborough, Downe, Pratt's Bottom, Chelsfield, Well Hill",
+            "TradAreaID": "57",
+            "TradLongitude": 0.0924932,
+            "TradLocation": "Kent BR6 7RS"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Manufacture of other plastic products",
+            "SICGroup": "222",
+            "SIC2007Weight": 100,
+            "SIC2007": "22290"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.21,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "AA Graphics is a well-established signage company offering a comprehensive range of services, from design and manufacturing to installation.  Operating as a professional studio with a dedicated team, AA Graphics leverages its extensive experience to deliver high-quality signage solutions for businesses of all sizes.  The company's offerings encompass the entire signage lifecycle, ensuring a seamless and efficient process for its clients.  This full-service approach, coupled with its commitment to quality and expertise, positions AA Graphics as a leading player in the competitive signage industry. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "10577726",
+        "companyName": "AA HALAI LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6820",
+        "industryName": "Renting and operating of own or leased real estate",
+        "address": "39 BECMEAD AVE, HARROW, HA3 8HD.",
+        "location": "HA3 8HD",
+        "incorporatedDate": "23/01/2017",
+        "netAssets": {
+          "value": -15706,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -3398,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 141083,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Harrow",
+            "TradAddress": "39 Becmead Avenue, Harrow, Middlesex, HA3 8HD.",
+            "TradPostShort": "HA3",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "HA3 8HD",
+            "TradDistrictID": "1483",
+            "TradLatitude": 51.5916,
+            "TradDistrict": "Harrow Weald, Kenton, Wealdstone",
+            "TradAreaID": "181",
+            "TradLongitude": -0.322899,
+            "TradLocation": "Middlesex"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Letting and operating of own or leased real estate (other than Housing Association real estate and conference and exhibition services) n.e.c.",
+            "SICGroup": "682",
+            "SIC2007Weight": 100,
+            "SIC2007": "68209"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.04,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "06434425",
+        "companyName": "AA HEATHROW CARS LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9609",
+        "industryName": "Other personal service activities n.e.c.",
+        "address": "44 BURNS AVENUE, FELTHAM, MIDDLESEX, TW14 9NA.",
+        "location": "TW14 9NA",
+        "incorporatedDate": "22/11/2007",
+        "netAssets": {
+          "value": -2572,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -5989,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 138614,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Hillingdon",
+            "TradAddress": "266 High Street, Harlington, Hayes, Middlesex, UB3 5DD.",
+            "TradPostShort": "UB3",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "UB3 5DD",
+            "TradDistrictID": "1511",
+            "TradLatitude": 51.505,
+            "TradDistrict": "Hayes, Harlington",
+            "TradAreaID": "193",
+            "TradLongitude": -0.421793,
+            "TradLocation": "Middlesex"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other personal service activities n.e.c.",
+            "SICGroup": "960",
+            "SIC2007Weight": 100,
+            "SIC2007": "96090"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.02,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "09567862",
+        "companyName": "AA HEATING & PLUMBING SERVICES LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4120",
+        "industryName": "Construction of residential and non-residential buildings",
+        "address": "208 CHARLTON ROAD, HARROW, HA3 9HJ.",
+        "location": "HA3 9HJ",
+        "incorporatedDate": "29/04/2015",
+        "netAssets": {
+          "value": -18008,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -25357,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 229013,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Harrow",
+            "TradAddress": "208 Charlton Road, HARROW, HA3 9HJ.",
+            "TradPostShort": "HA3",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "HA3 9HJ",
+            "TradDistrictID": "1483",
+            "TradLatitude": 51.5916,
+            "TradDistrict": "Harrow Weald, Kenton, Wealdstone",
+            "TradAreaID": "181",
+            "TradLongitude": -0.322899,
+            "TradLocation": "HARROW"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Construction of domestic buildings",
+            "SICGroup": "412",
+            "SIC2007Weight": 100,
+            "SIC2007": "41202"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.46,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "08341898",
+        "companyName": "AA IPHONES LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9510",
+        "industryName": "Repair of computers and communication equipment",
+        "address": "71-75 SHELTON STREET, LONDON, WC2H 9JQ.",
+        "location": "WC2H 9JQ",
+        "incorporatedDate": "27/12/2012",
+        "netAssets": {
+          "value": -23232,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -437700,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 634355,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Leeds",
+            "TradAddress": "122 New Road Side, Horsforth, Leeds, West Yorkshire, LS18 4QB.",
+            "TradPostShort": "LS18",
+            "TradRegionID": "14",
+            "TradRegion": "Yorkshire and the Humber",
+            "TradPost": "LS18 4QB",
+            "TradDistrictID": "1597",
+            "TradLatitude": 53.841,
+            "TradDistrict": "Horsforth",
+            "TradAreaID": "221",
+            "TradLongitude": -1.64458,
+            "TradLocation": "West Yorkshire"
+          },
+          {
+            "TradArea": "Westminster",
+            "TradAddress": "71-75 Shelton Street, LONDON, WC2H 9JQ.",
+            "TradPostShort": "WC2H",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "WC2H 9JQ",
+            "TradDistrictID": "1829",
+            "TradLatitude": 51.5137,
+            "TradDistrict": "Leicester Square",
+            "TradAreaID": "435",
+            "TradLongitude": -0.127719,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Repair of computers and peripheral equipment",
+            "SICGroup": "951",
+            "SIC2007Weight": 100,
+            "SIC2007": "95110"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.2,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "07146933",
+        "companyName": "AA IT CONSULTANCY LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6202",
+        "industryName": "Computer consultancy activities",
+        "address": "31 EAST TOWERS, PINNER, MIDDLESEX, HA5 1TN.",
+        "location": "HA5 1TN",
+        "incorporatedDate": "04/02/2010",
+        "netAssets": {
+          "value": 13319,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 33480,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 73292,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Harrow",
+            "TradAddress": "31 East Towers, Pinner, Middlesex, HA5 1TN.",
+            "TradPostShort": "HA5",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "HA5 1TN",
+            "TradDistrictID": "2389",
+            "TradLatitude": 51.5946,
+            "TradDistrict": "Pinner, Eastcote, Hatch End, Carpenders Park",
+            "TradAreaID": "181",
+            "TradLongitude": -0.385877,
+            "TradLocation": "Middlesex"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Computer consultancy activities",
+            "SICGroup": "620",
+            "SIC2007Weight": 100,
+            "SIC2007": "62020"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.16,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11895547",
+        "companyName": "AA JY PROPERTY LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6820",
+        "industryName": "Renting and operating of own or leased real estate",
+        "address": "35 SCRUTTON STREET, LONDON, EC2A 4HU.",
+        "location": "EC2A 4HU",
+        "incorporatedDate": "21/03/2019",
+        "netAssets": {
+          "value": -20151,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 4688,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 248266,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Hackney",
+            "TradAddress": "35 Scrutton Street, LONDON, EC2A 4HU.",
+            "TradPostShort": "EC2A",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "EC2A 4HU",
+            "TradDistrictID": "2606",
+            "TradLatitude": 51.5232,
+            "TradDistrict": "Shoreditch",
+            "TradAreaID": "172",
+            "TradLongitude": -0.088045,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Letting and operating of own or leased real estate (other than Housing Association real estate and conference and exhibition services) n.e.c.",
+            "SICGroup": "682",
+            "SIC2007Weight": 100,
+            "SIC2007": "68209"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.11,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "07825005",
+        "companyName": "AA MANAGEMENT TRAINING & CONSULTANCY LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9999",
+        "industryName": "Dormant company",
+        "address": "74 CHURCH ROAD, LONDON, LONDON, SE19 2EZ.",
+        "location": "SE19 2EZ",
+        "incorporatedDate": "27/10/2011",
+        "netAssets": {
+          "value": 1319,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 14744,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 117399,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Croydon",
+            "TradAddress": "74 Church Road, London, SE19 2EZ.",
+            "TradPostShort": "SE19",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "SE19 2EZ",
+            "TradDistrictID": "2885",
+            "TradLatitude": 51.4182,
+            "TradDistrict": "Upper Norwood, Crystal Palace, Crown Point, Norwood",
+            "TradAreaID": "109",
+            "TradLongitude": -0.0852298,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Dormant Company",
+            "SICGroup": "999",
+            "SIC2007Weight": 100,
+            "SIC2007": "99999"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "AA MANAGEMENT TRAINING & CONSULTANCY LTD, headquartered in London, United Kingdom, is a business consulting firm specializing in management training and development. Their services likely encompass a range of offerings, including leadership development programs, strategic planning workshops, change management consulting, and performance improvement initiatives. They cater to businesses seeking to enhance their organizational effectiveness, improve employee skills, and drive operational excellence. Their expertise likely extends to various industries, providing tailored solutions to address specific business challenges and foster a culture of continuous improvement. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "10596473",
+        "companyName": "AA MANAGEMENT(UK) LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6920",
+        "industryName": "Accounting, bookkeeping and auditing activities; tax consultancy",
+        "address": "5 GLOUCESTER GARDENS, COCKFOSTERS, BARNET, EN4 0QN.",
+        "location": "EN4 0QN",
+        "incorporatedDate": "02/02/2017",
+        "netAssets": {
+          "value": 741,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -694,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 23559,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Enfield",
+            "TradAddress": "5 Gloucester Gardens, Cockfosters, Barnet, Hertfordshire, EN4 0QN.",
+            "TradPostShort": "EN4",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "EN4 0QN",
+            "TradDistrictID": "1440",
+            "TradLatitude": 51.648,
+            "TradDistrict": "Hadley Wood, Cockfosters, East Barnet, New Barnet",
+            "TradAreaID": "148",
+            "TradLongitude": -0.162793,
+            "TradLocation": "Hertfordshire"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Bookkeeping activities",
+            "SICGroup": "692",
+            "SIC2007Weight": 100,
+            "SIC2007": "69202"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 1.48,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "AA Property Services UK Ltd is a comprehensive real estate services company operating in North and Greater London. Specializing in residential property sales, lettings, and management, they offer a full suite of services including property development, maintenance and refurbishment, block management, and financial and legal support. Their expertise extends to facilitating mortgage acquisition, offshore company acquisition, and tax consultation, providing a one-stop shop for both landlords and tenants. With over 15 years of experience, AA Property Services UK Ltd positions itself as a trusted advisor, catering to short and long-term needs within the competitive London property market. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "10243148",
+        "companyName": "AA ONLINE CONSULTANCY LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6209",
+        "industryName": "Other information technology and computer service activities",
+        "address": "234 CRANBROOK ROAD, ILFORD, ESSEX, IG1 4UT.",
+        "location": "IG1 4UT",
+        "incorporatedDate": "21/06/2016",
+        "netAssets": {
+          "value": -24958,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -7464,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 458000,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Redbridge",
+            "TradAddress": "234 Cranbrook Road, Ilford, Essex, IG1 4UT.",
+            "TradPostShort": "IG1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "IG1 4UT",
+            "TradDistrictID": "1632",
+            "TradLatitude": 51.5592,
+            "TradDistrict": "Ilford",
+            "TradAreaID": "307",
+            "TradLongitude": 0.072743,
+            "TradLocation": "Essex"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other information technology and computer service activities",
+            "SICGroup": "620",
+            "SIC2007Weight": 100,
+            "SIC2007": "62090"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.12,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "12028585",
+        "companyName": "AA PLUS PLUMBING LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4320",
+        "industryName": "Electrical, plumbing and other construction installation activities",
+        "address": "QUEENS COURT,, 9-17 EASTERN ROAD,, ROMFORD,, ESSEX,, RM1 3NG.",
+        "location": "RM1 3NG",
+        "incorporatedDate": "03/06/2019",
+        "netAssets": {
+          "value": 228461,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 191809,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 3318619,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Havering",
+            "TradAddress": "Queen Court, 9-17 Eastern Road, ROMFORD, RM1 3NG.",
+            "TradPostShort": "RM1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "RM1 3NG",
+            "TradDistrictID": "2499",
+            "TradLatitude": 51.5802,
+            "TradDistrict": "Romford",
+            "TradAreaID": "185",
+            "TradLongitude": 0.18206,
+            "TradLocation": "ROMFORD"
+          },
+          {
+            "TradArea": "Newham",
+            "TradAddress": "608a Romford Road, London, E12 5AF.",
+            "TradPostShort": "E12",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E12 5AF",
+            "TradDistrictID": "1982",
+            "TradLatitude": 51.551,
+            "TradDistrict": "Manor Park, Little Ilford, Aldersbrook",
+            "TradAreaID": "264",
+            "TradLongitude": 0.050819,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other building completion and finishing",
+            "SICGroup": "433",
+            "SIC2007Weight": 34,
+            "SIC2007": "43390"
+          },
+          {
+            "SICDesc": "Specialised construction activities (other than scaffold erection) n.e.c.",
+            "SICGroup": "439",
+            "SIC2007Weight": 33,
+            "SIC2007": "43999"
+          },
+          {
+            "SICDesc": "Other construction installation",
+            "SICGroup": "432",
+            "SIC2007Weight": 33,
+            "SIC2007": "43290"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.17,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11013643",
+        "companyName": "AA PREMIUM LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4690",
+        "industryName": "Non-specialised wholesale trade",
+        "address": "528D LEA BRIDGE ROAD, LONDON, E10 7DT.",
+        "location": "E10 7DT",
+        "incorporatedDate": "16/10/2017",
+        "netAssets": {
+          "value": 4458,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 130,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 162974,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Hackney",
+            "TradAddress": "528D Lea Bridge Road, London, E10 7DT.",
+            "TradPostShort": "E10",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E10 7DT",
+            "TradDistrictID": "1847",
+            "TradLatitude": 51.5687,
+            "TradDistrict": "Leyton, Temple Mills, Hackney Marshes, Upper Clapton, Walthamstow Marshes",
+            "TradAreaID": "172",
+            "TradLongitude": -0.0127679,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Wholesale of other intermediate products",
+            "SICGroup": "467",
+            "SIC2007Weight": 50,
+            "SIC2007": "46760"
+          },
+          {
+            "SICDesc": "Non-specialised wholesale trade",
+            "SICGroup": "469",
+            "SIC2007Weight": 50,
+            "SIC2007": "46900"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.06,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "12062685",
+        "companyName": "AA PRIVSEC CONSULTING LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6202",
+        "industryName": "Computer consultancy activities",
+        "address": "71-75 SHELTON STREET, LONDON, GREATER LONDON, WC2H 9JQ.",
+        "location": "WC2H 9JQ",
+        "incorporatedDate": "21/06/2019",
+        "netAssets": {
+          "value": -205,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 234,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 25293,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Westminster",
+            "TradAddress": "71-75 Shelton Street, LONDON, WC2H 9JQ.",
+            "TradPostShort": "WC2H",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "WC2H 9JQ",
+            "TradDistrictID": "1829",
+            "TradLatitude": 51.5137,
+            "TradDistrict": "Leicester Square",
+            "TradAreaID": "435",
+            "TradLongitude": -0.127719,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Computer consultancy activities",
+            "SICGroup": "620",
+            "SIC2007Weight": 100,
+            "SIC2007": "62020"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.01,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11329124",
+        "companyName": "AA PROPERTIES LONDON LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6830",
+        "industryName": "Real estate activities on a fee or contract basis",
+        "address": "45A RAVEN ROW, LONDON, E1 2EG.",
+        "location": "E1 2EG",
+        "incorporatedDate": "25/04/2018",
+        "netAssets": {
+          "value": -29773,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 1772,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 51164,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Tower Hamlets",
+            "TradAddress": "45A Raven Row, London, E1 2EG, E1 2EG.",
+            "TradPostShort": "E1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E1 2EG",
+            "TradDistrictID": "83",
+            "TradLatitude": 51.5163,
+            "TradDistrict": "Aldgate, Bishopsgate, Whitechapel, Shoreditch, Spitalfields, Shadwell, Stepney, Mile End, Portsoken",
+            "TradAreaID": "405",
+            "TradLongitude": -0.0604113,
+            "TradLocation": "E1 2EG"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Management of real estate on a fee or contract basis",
+            "SICGroup": "683",
+            "SIC2007Weight": 100,
+            "SIC2007": "68320"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.5,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "AA Property Services UK LTD is a full-service real estate company operating in North and Greater London, specializing in residential property sales, lettings, and management.  They offer a comprehensive suite of services including property consultancy, development, maintenance, and refurbishment, catering to both individual and block management needs.  Their expertise extends to finance and mortgage facilitation, offshore company acquisition, tax consultation, and legal dispute resolution.  With over 15 years of experience, AA Property Services UK LTD positions itself as a trusted partner for clients seeking a one-stop solution for their property needs, leveraging their extensive knowledge of the London market and commitment to delivering exceptional service. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11968708",
+        "companyName": "AA PROPERTIES SERVICES LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6820",
+        "industryName": "Renting and operating of own or leased real estate",
+        "address": "20 GROSVENOR AVENUE, HAYES, UB4 8NL.",
+        "location": "UB4 8NL",
+        "incorporatedDate": "29/04/2019",
+        "netAssets": {
+          "value": 5485,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 342,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 235051,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Swindon",
+            "TradAddress": "37 Stone Lane, Lydiard Millicent, Swindon, Wiltshire, SN5 3LD.",
+            "TradPostShort": "SN5",
+            "TradRegionID": "11",
+            "TradRegion": "South West England",
+            "TradPost": "SN5 3LD",
+            "TradDistrictID": "2988",
+            "TradLatitude": 51.5677,
+            "TradDistrict": "West Swindon",
+            "TradAreaID": "388",
+            "TradLongitude": -1.83913,
+            "TradLocation": "Wiltshire"
+          },
+          {
+            "TradArea": "Hillingdon",
+            "TradAddress": "20 Grosvenor Avenue, HAYES, UB4 8NL.",
+            "TradPostShort": "UB4",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "UB4 8NL",
+            "TradDistrictID": "3104",
+            "TradLatitude": 51.5231,
+            "TradDistrict": "Yeading, Hayes",
+            "TradAreaID": "193",
+            "TradLongitude": -0.408569,
+            "TradLocation": "HAYES"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Letting and operating of own or leased real estate (other than Housing Association real estate and conference and exhibition services) n.e.c.",
+            "SICGroup": "682",
+            "SIC2007Weight": 100,
+            "SIC2007": "68209"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.3,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "COMBINED SUPPORT is a technology consulting firm specializing in providing comprehensive IT solutions to businesses. Their services encompass a broad spectrum of technology expertise, ranging from strategic planning and implementation to ongoing support and maintenance. They offer a \"white-glove\" service, implying a highly personalized and hands-on approach, tailored to meet the unique needs of each client. Their focus is on leveraging technology to drive business growth and efficiency, positioning themselves as a trusted partner for companies seeking to optimize their IT infrastructure and processes. \n",
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "04923047",
+        "companyName": "AA PROPERTY MANAGEMENT LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9800",
+        "industryName": "Residents property management",
+        "address": "5 COLET GARDENS, WEST KENSINGTON, LONDON, W14 9DH.",
+        "location": "W14 9DH",
+        "incorporatedDate": "06/10/2003",
+        "netAssets": {
+          "value": 43958,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 39847,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 415135,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Kensington and Chelsea",
+            "TradAddress": "5 Colet Gardens, West Kensington, London, W14 9DH.",
+            "TradPostShort": "W14",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "W14 9DH",
+            "TradDistrictID": "2980",
+            "TradLatitude": 51.4954,
+            "TradDistrict": "West Kensington, Kensington Olympia, Holland Park",
+            "TradAreaID": "208",
+            "TradLongitude": -0.211157,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Residents property management",
+            "SICGroup": "980",
+            "SIC2007Weight": 100,
+            "SIC2007": "98000"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.17,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "Property management and related services.",
+          "type": "ESTIMATE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "09179966",
+        "companyName": "AA PSYCHIATRY LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "8620",
+        "industryName": "Medical and dental practice activities",
+        "address": "30 CHURCHILL PLACE, LONDON, GREATER LONDON, E14 5RE.",
+        "location": "E14 5RE",
+        "incorporatedDate": "18/08/2014",
+        "netAssets": {
+          "value": 55556,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 14092,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 131891,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Tower Hamlets",
+            "TradAddress": "3 Old Bellgate Place, Old Bellgate Place, London, E14 3SW.",
+            "TradPostShort": "E14",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E14 3SW",
+            "TradDistrictID": "2411",
+            "TradLatitude": 51.5076,
+            "TradDistrict": "Poplar, Isle of Dogs, Limehouse, Canary Wharf, Blackwall, Cubitt Town",
+            "TradAreaID": "405",
+            "TradLongitude": -0.0209339,
+            "TradLocation": "London"
+          },
+          {
+            "TradArea": "Tower Hamlets",
+            "TradAddress": "30 Churchill Place, LONDON, E14 5RE.",
+            "TradPostShort": "E14",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E14 5RE",
+            "TradDistrictID": "2411",
+            "TradLatitude": 51.5076,
+            "TradDistrict": "Poplar, Isle of Dogs, Limehouse, Canary Wharf, Blackwall, Cubitt Town",
+            "TradAreaID": "405",
+            "TradLongitude": -0.0209339,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Specialist medical practice activities",
+            "SICGroup": "862",
+            "SIC2007Weight": 100,
+            "SIC2007": "86220"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.11,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "10291954",
+        "companyName": "AA RENOVATIONS LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4120",
+        "industryName": "Construction of residential and non-residential buildings",
+        "address": "FLAT 4 PINE COURT, ASPEN LANE, NORTHOLT, UB5 6XF.",
+        "location": "UB5 6XF",
+        "incorporatedDate": "22/07/2016",
+        "netAssets": {
+          "value": -94026,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -87376,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 93270,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Ealing",
+            "TradAddress": "Flat 4 Pine Court, Aspen Lane, Northolt, UB5 6XF, UB5 6XF.",
+            "TradPostShort": "UB5",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "UB5 6XF",
+            "TradDistrictID": "2283",
+            "TradLatitude": 51.5442,
+            "TradDistrict": "Northolt",
+            "TradAreaID": "127",
+            "TradLongitude": -0.374824,
+            "TradLocation": "UB5 6XF"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Construction of domestic buildings",
+            "SICGroup": "412",
+            "SIC2007Weight": 100,
+            "SIC2007": "41202"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.01,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "Construction of domestic buildings.",
+          "type": "ESTIMATE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11587665",
+        "companyName": "AA RESEARCH & INNOVATION LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "7490",
+        "industryName": "Other professional, scientific and technical activities n.e.c.",
+        "address": "FLAT 509 THE GATEFOLD BUILDING, 36 BLYTH ROAD, HAYES, UB3 1AJ.",
+        "location": "UB3 1AJ",
+        "incorporatedDate": "25/09/2018",
+        "netAssets": {
+          "value": 5401,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 2581,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 492096,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Hillingdon",
+            "TradAddress": "Flat 509 The Gatefold Building, 36 Blyth Road, Hayes, UB3 1AJ, UB3 1AJ.",
+            "TradPostShort": "UB3",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "UB3 1AJ",
+            "TradDistrictID": "1511",
+            "TradLatitude": 51.505,
+            "TradDistrict": "Hayes, Harlington",
+            "TradAreaID": "193",
+            "TradLongitude": -0.421793,
+            "TradLocation": "UB3 1AJ"
+          },
+          {
+            "TradArea": "Hillingdon",
+            "TradAddress": "Flat 401, Navigation Building, Station Approach, Hayes, Middlesex, UB3 4FF.",
+            "TradPostShort": "UB3",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "UB3 4FF",
+            "TradDistrictID": "1511",
+            "TradLatitude": 51.505,
+            "TradDistrict": "Hayes, Harlington",
+            "TradAreaID": "193",
+            "TradLongitude": -0.421793,
+            "TradLocation": "Hayes, Middlesex"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other professional, scientific and technical activities (not including environmental consultancy or quantity surveying) n.e.c.",
+            "SICGroup": "749",
+            "SIC2007Weight": 100,
+            "SIC2007": "74909"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.28,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "10058040",
+        "companyName": "AA RETAIL SHOPS LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4710",
+        "industryName": "Retail sale in non-specialised stores",
+        "address": "16 HERBERT ROAD, LONDON, GREATER LONDON, SE18 3SH.",
+        "location": "SE18 3SH",
+        "incorporatedDate": "11/03/2016",
+        "netAssets": {
+          "value": 192027,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -5123,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 976918,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Greenwich",
+            "TradAddress": "16 Herbert Road, LONDON, SE18 3SH.",
+            "TradPostShort": "SE18",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "SE18 3SH",
+            "TradDistrictID": "2397",
+            "TradLatitude": 51.4854,
+            "TradDistrict": "Plumstead, Woolwich",
+            "TradAreaID": "168",
+            "TradLongitude": 0.0711139,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+            "SICGroup": "471",
+            "SIC2007Weight": 100,
+            "SIC2007": "47110"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "Retail shop.",
+          "type": "ESTIMATE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "12042551",
+        "companyName": "AA SERVE LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6920",
+        "industryName": "Accounting, bookkeeping and auditing activities; tax consultancy",
+        "address": "42 ELDRED ROAD, BARKING, IG11 7YH.",
+        "location": "IG11 7YH",
+        "incorporatedDate": "10/06/2019",
+        "netAssets": {
+          "value": 491,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 0,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 122708,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Tower Hamlets",
+            "TradAddress": "30 Turner Street, London, E1 2AS.",
+            "TradPostShort": "E1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "E1 2AS",
+            "TradDistrictID": "83",
+            "TradLatitude": 51.5163,
+            "TradDistrict": "Aldgate, Bishopsgate, Whitechapel, Shoreditch, Spitalfields, Shadwell, Stepney, Mile End, Portsoken",
+            "TradAreaID": "405",
+            "TradLongitude": -0.0604113,
+            "TradLocation": "London"
+          },
+          {
+            "TradArea": "Barking and Dagenham",
+            "TradAddress": "42 Eldred Road, BARKING, IG11 7YH.",
+            "TradPostShort": "IG11",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "IG11 7YH",
+            "TradDistrictID": "282",
+            "TradLatitude": 51.5349,
+            "TradDistrict": "Barking",
+            "TradAreaID": "23",
+            "TradLongitude": 0.0918193,
+            "TradLocation": "BARKING"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Bookkeeping activities",
+            "SICGroup": "692",
+            "SIC2007Weight": 100,
+            "SIC2007": "69202"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.34,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11666386",
+        "companyName": "AA TRADERS LONDON LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4510",
+        "industryName": "Sale of motor vehicles",
+        "address": "FLAT-16 BEECHWORTH, 179 WILLESDEN LANE, LONDON, NW6 7YZ.",
+        "location": "NW6 7YZ",
+        "incorporatedDate": "08/11/2018",
+        "netAssets": {
+          "value": -96501,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 21887,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 1677120,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Brent",
+            "TradAddress": "Flat-10 217 Eden Lodge, Kilburn, London, NW6 7YU, NW6 7YU.",
+            "TradPostShort": "NW6",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "NW6 7YU",
+            "TradDistrictID": "1732",
+            "TradLatitude": 51.5403,
+            "TradDistrict": "Kilburn, Brondesbury, West Hampstead, Queen's Park",
+            "TradAreaID": "50",
+            "TradLongitude": -0.195638,
+            "TradLocation": "NW6 7YU"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Sale of used cars and light motor vehicles",
+            "SICGroup": "451",
+            "SIC2007Weight": 100,
+            "SIC2007": "45112"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "12256120",
+        "companyName": "AA TRAFFIC MANAGEMENT LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "5220",
+        "industryName": "Support activities for transportation",
+        "address": "10 ABBEY PARADE, LONDON, SW19 1DG.",
+        "location": "SW19 1DG",
+        "incorporatedDate": "11/10/2019",
+        "netAssets": {
+          "value": -31300,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -6211,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 213101,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Merton",
+            "TradAddress": "10 Abbey Parade, LONDON, SW19 1DG.",
+            "TradPostShort": "SW19",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "SW19 1DG",
+            "TradDistrictID": "3030",
+            "TradLatitude": 51.4222,
+            "TradDistrict": "Wimbledon, Colliers Wood, Southfields",
+            "TradAreaID": "245",
+            "TradLongitude": -0.205325,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other transportation support activities",
+            "SICGroup": "522",
+            "SIC2007Weight": 100,
+            "SIC2007": "52290"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.38,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11090355",
+        "companyName": "AA UNITED LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4710",
+        "industryName": "Retail sale in non-specialised stores",
+        "address": "AA UNITED LTD, 129-131 GREEN LANE, SURREY, SM4 6SE.",
+        "location": "SM4 6SE",
+        "incorporatedDate": "30/11/2017",
+        "netAssets": {
+          "value": 6987,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 503,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 2572668,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Hackney",
+            "TradAddress": "20-22 Wenlock Road, London, N1 7GU.",
+            "TradPostShort": "N1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "N1 7GU",
+            "TradDistrictID": "300",
+            "TradLatitude": 51.5376,
+            "TradDistrict": "Barnsbury, Canonbury, Kings Cross, Islington, Pentonville, De Beauvoir Town, Hoxton",
+            "TradAreaID": "172",
+            "TradLongitude": -0.0982527,
+            "TradLocation": "London"
+          },
+          {
+            "TradArea": "Merton",
+            "TradAddress": "129-131 Green Lane, Surrey, SM4 6SE, SM4 6SE.",
+            "TradPostShort": "SM4",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "SM4 6SE",
+            "TradDistrictID": "2056",
+            "TradLatitude": 51.393,
+            "TradDistrict": "Morden, Morden Park, Lower Morden, St. Helier",
+            "TradAreaID": "245",
+            "TradLongitude": -0.200191,
+            "TradLocation": "SM4 6SE"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+            "SICGroup": "471",
+            "SIC2007Weight": 100,
+            "SIC2007": "47110"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.08,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "09131522",
+        "companyName": "AA WINE AND FOOD LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4710",
+        "industryName": "Retail sale in non-specialised stores",
+        "address": "235 KENTON LANE, HARROW, HA3 8RP.",
+        "location": "HA3 8RP",
+        "incorporatedDate": "15/07/2014",
+        "netAssets": {
+          "value": -131755,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -56120,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 640479,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Harrow",
+            "TradAddress": "235 Kenton Lane, Harrow, Middlesex, HA3 8RP.",
+            "TradPostShort": "HA3",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "HA3 8RP",
+            "TradDistrictID": "1483",
+            "TradLatitude": 51.5916,
+            "TradDistrict": "Harrow Weald, Kenton, Wealdstone",
+            "TradAreaID": "181",
+            "TradLongitude": -0.322899,
+            "TradLocation": "Middlesex"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+            "SICGroup": "471",
+            "SIC2007Weight": 100,
+            "SIC2007": "47110"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.03,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "07945156",
+        "companyName": "AA'S CONSULTING LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "6202",
+        "industryName": "Computer consultancy activities",
+        "address": "CAPITAL OFFICE, KEMP HOUSE, 152, CITY ROAD, LONDON, EC1V 2NX.",
+        "location": "EC1V 2NX",
+        "incorporatedDate": "10/02/2012",
+        "netAssets": {
+          "value": 13489,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": -3545,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 83554,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Islington",
+            "TradAddress": "Kemp House, 152-160 City Road, LONDON, EC1V 2NX.",
+            "TradPostShort": "EC1V",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "EC1V 2NX",
+            "TradDistrictID": "1288",
+            "TradLatitude": 51.5265,
+            "TradDistrict": "Finsbury, Moorfields Eye Hospital",
+            "TradAreaID": "205",
+            "TradLongitude": -0.0993212,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Computer consultancy activities",
+            "SICGroup": "620",
+            "SIC2007Weight": 50,
+            "SIC2007": "62020"
+          },
+          {
+            "SICDesc": "Management consultancy activities (other than financial management)",
+            "SICGroup": "702",
+            "SIC2007Weight": 50,
+            "SIC2007": "70229"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.12,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "08872025",
+        "companyName": "D&AA LIMITED",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "9609",
+        "industryName": "Other personal service activities n.e.c.",
+        "address": "79 REIGATE ROAD, BROMLEY, BR1 5JJ.",
+        "location": "BR1 5JJ",
+        "incorporatedDate": "31/01/2014",
+        "netAssets": {
+          "value": 7664,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 388,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 37075,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Bromley",
+            "TradAddress": "79 Reigate Road, BROMLEY, BR1 5JJ.",
+            "TradPostShort": "BR1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "BR1 5JJ",
+            "TradDistrictID": "643",
+            "TradLatitude": 51.4107,
+            "TradDistrict": "Bromley, Bickley, Downham",
+            "TradAreaID": "57",
+            "TradLongitude": 0.0194268,
+            "TradLocation": "BROMLEY"
+          },
+          {
+            "TradArea": "Haringey",
+            "TradAddress": "349c High Road, London, N22 8JA.",
+            "TradPostShort": "N22",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "N22 8JA",
+            "TradDistrictID": "3059",
+            "TradLatitude": 51.6,
+            "TradDistrict": "Wood Green, Bounds Green, Bowes Park",
+            "TradAreaID": "178",
+            "TradLongitude": -0.11405,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Other personal service activities n.e.c.",
+            "SICGroup": "960",
+            "SIC2007Weight": 100,
+            "SIC2007": "96090"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.05,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": "Security services.",
+          "type": "ESTIMATE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "09804808",
+        "companyName": "DOUBLE AA SEVEN LONDON LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "7490",
+        "industryName": "Other professional, scientific and technical activities n.e.c.",
+        "address": "124 124 CITY ROAD, LONDON, EC1V 2NX.",
+        "location": "EC1V 2NX",
+        "incorporatedDate": "01/10/2015",
+        "netAssets": {
+          "value": -3064,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 700,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 9326,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Redbridge",
+            "TradAddress": "6 Ridgeway Woodford Green, Woodford Green, Essex, IG8 7RH.",
+            "TradPostShort": "IG8",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "IG8 7RH",
+            "TradDistrictID": "3062",
+            "TradLatitude": 51.6105,
+            "TradDistrict": "Woodford Green, Woodford Bridge",
+            "TradAreaID": "307",
+            "TradLongitude": 0.0353062,
+            "TradLocation": "Essex"
+          },
+          {
+            "TradArea": "Islington",
+            "TradAddress": "Kemp House, 152-160 City Road, LONDON, EC1V 2NX.",
+            "TradPostShort": "EC1V",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "EC1V 2NX",
+            "TradDistrictID": "1288",
+            "TradLatitude": 51.5265,
+            "TradDistrict": "Finsbury, Moorfields Eye Hospital",
+            "TradAreaID": "205",
+            "TradLongitude": -0.0993212,
+            "TradLocation": "LONDON"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Non-trading company",
+            "SICGroup": "749",
+            "SIC2007Weight": 100,
+            "SIC2007": "74990"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.13,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11684404",
+        "companyName": "STUDIO AA LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "7110",
+        "industryName": "Architectural and engineering activities and related technical consultancy",
+        "address": "SUITE 3 GROSVENOR HOUSE, 1 HIGH STREET, LONDON, HA8 7TA.",
+        "location": "HA8 7TA",
+        "incorporatedDate": "19/11/2018",
+        "netAssets": {
+          "value": 5476,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 4895,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 137192,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Harrow",
+            "TradAddress": "Suite 3, Grosvenor House, 1 High Street, EDGWARE, HA8 7TA.",
+            "TradPostShort": "HA8",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "HA8 7TA",
+            "TradDistrictID": "1212",
+            "TradLatitude": 51.6116,
+            "TradDistrict": "Edgware",
+            "TradAreaID": "181",
+            "TradLongitude": -0.275245,
+            "TradLocation": "EDGWARE"
+          },
+          {
+            "TradArea": "Hackney",
+            "TradAddress": "20-22 Wenlock Road, London, N1 7GU.",
+            "TradPostShort": "N1",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "N1 7GU",
+            "TradDistrictID": "300",
+            "TradLatitude": 51.5376,
+            "TradDistrict": "Barnsbury, Canonbury, Kings Cross, Islington, Pentonville, De Beauvoir Town, Hoxton",
+            "TradAreaID": "172",
+            "TradLongitude": -0.0982527,
+            "TradLocation": "London"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Architectural activities",
+            "SICGroup": "711",
+            "SIC2007Weight": 100,
+            "SIC2007": "71111"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": 0.06,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      },
+      {
+        "companyId": "11820924",
+        "companyName": "T AND AA LTD",
+        "score": null,
+        "status": "Live",
+        "liqStatus": null,
+        "industryCode": "4710",
+        "industryName": "Retail sale in non-specialised stores",
+        "address": "59 BEULAH ROAD, THORNTON HEATH, CR7 8JG.",
+        "location": "CR7 8JG",
+        "incorporatedDate": "12/02/2019",
+        "netAssets": {
+          "value": 10576,
+          "type": "COMPANYHOUSE"
+        },
+        "profitAfterTax": {
+          "value": 461,
+          "type": "ESTIMATE"
+        },
+        "turnover": {
+          "value": 224622,
+          "type": "ESTIMATE"
+        },
+        "trad": [
+          {
+            "TradArea": "Croydon",
+            "TradAddress": "59 Beulah Road, THORNTON HEATH, CR7 8JG.",
+            "TradPostShort": "CR7",
+            "TradRegionID": "5",
+            "TradRegion": "London",
+            "TradPost": "CR7 8JG",
+            "TradDistrictID": "2822",
+            "TradLatitude": 51.3927,
+            "TradDistrict": "Thornton Heath",
+            "TradAreaID": "109",
+            "TradLongitude": -0.103502,
+            "TradLocation": "THORNTON HEATH"
+          }
+        ],
+        "indMix": [
+          {
+            "SICDesc": "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+            "SICGroup": "471",
+            "SIC2007Weight": 100,
+            "SIC2007": "47110"
+          }
+        ],
+        "multipleIndustryMixTO": {
+          "value": -0.22,
+          "type": "COMPANYHOUSE"
+        },
+        "country": "UK",
+        "activity": {
+          "value": null,
+          "type": "COMPANYHOUSE"
+        },
+        "watchListTitles": null
+      }
+    ],
+    "runCaptcha": false
+  }
+}
