@@ -763,10 +763,7 @@ async function insertCompanyData(client, company) {
     ];
     
     const companyResult = await client.query(companyQuery, companyValues);
-    const insertedCompanyId = companyResult.rows[0].company
-
-    const companyResult = await client.query(companyQuery, companyValues);
-    const insertedCompanyId = companyResult.rows[0].companyid;
+    const insertedCompanyId = companyResult.rows[0].companyId;
     
     // Helper function to handle financial data insertion
     const insertFinancialData = async (tableName, dataObj, valueType = null) => {
